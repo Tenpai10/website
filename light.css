@@ -28,6 +28,7 @@ nav{
     justify-content: space-around;
     width: 20%;
     margin-right: -50px;
+
 }
 
 .nav-links li{
@@ -161,3 +162,61 @@ nav{
     border: none;
     background-color: transparent;
 }
+
+
+#shopNow{
+    float: left;    
+
+}
+
+.adPanel{
+    position: relative;
+    width: 100%;
+}
+
+.adPanel img{
+    width: 100%;
+    height: auto;
+}
+
+.adPanel .shopNow {
+    position: absolute;
+    top: 82%;
+    left: 10%;
+    background-color: #e0245e;
+    color: white;
+    font-size: 135%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    width: 28%;
+    height: 10%;
+}
+
+.shopNow:hover{
+    background-color: #a51845;
+}
+
+
+.container{
+    padding-left: 13%;
+    margin: 15px;
+}
+
+.container img{ 
+margin-top: 25px;
+margin-left: 40px;
+padding-right: 10px;
+padding-left: 10px;
+cursor: pointer;
+}
+
+.footer{
+    font-size: 95%;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 10px;
+}
+
+
+
