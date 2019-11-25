@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="dark.css">
+    <link rel="stylesheet" href="light.css">
     <title>Lazhopee</title>
 </head>
 <body>
     <nav>
         <div class="logo">
-            <img src="./logo.png" alt="No Image Available" class="logo_img">
+            <img src="./logo_label.png" alt="No Image Available" class="logo_img">
         </div>
-        <ul class="nav-links">
-            <li>
-                <a href="#">Products</a>
-            </li>
-            <li>
-                <a href="#">About Us</a>
-            </li>
-            <li>
-                <a href="#">Sign-in</a>
-            </li>
-        </ul>
+        <div class ="nav_links">
+            <img src="./cart.png" alt="No Image Available">
+            <img src="./profile.png" alt="No Image Available" id="profile_icon">
+            <img src="./search.png" alt="No Image Available" id="search_icon">
+            <ul>
+                <li>
+                    <a href="#" class="linkl" id="home" href="baruc">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="linkl" id="shop">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="linkl">Contacts</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <div class="line"></div>
     <div class="search_cart">
-        <img src="./cart.png" alt="" class="cart">
-        <img src="./search.png" alt="" class="search">
-        <input type="search" name="" id="search" placeholder="Search">
+        
         <select name="Category" class="category">
             <option value="default" id="category">All</option>
             <option value="c1" id="category">Category 1</option>
@@ -41,7 +44,7 @@
 
     <div class="inventory">
         <div class="item1">
-            <img src="try.png" alt="no image" id="img_item">
+            <img src="profile.png" alt="no image" id="img_item">
             <p id="price">69.00Php</p>
             <p id="label">CellPhone</p>
             <p id="discription">100gb RAM<br>100gb ROM<br>100gb megaPixel</p>
@@ -49,7 +52,7 @@
             <button id="add_cart">Add to cart</button>
         </div>
         <div class="item1">
-            <img src="try.png" alt="no image" id="img_item">
+            <img src="profile.png" alt="no image" id="img_item">
             <p id="price">69.00Php</p>
             <p id="label">CellPhone</p>
             <p id="discription">100gb RAM<br>100gb ROM<br>100gb megaPixel</p>
@@ -57,7 +60,7 @@
             <button id="add_cart">Add to cart</button>
         </div>
         <div class="item1">
-            <img src="try.png" alt="no image" id="img_item">
+            <img src="profile.png" alt="no image" id="img_item">
             <p id="price">69.00Php</p>
             <p id="label">CellPhone</p>
             <p id="discription">100gb RAM<br>100gb ROM<br>100gb megaPixel</p>
@@ -65,7 +68,7 @@
             <button id="add_cart">Add to cart</button>
         </div>
         <div class="item1">
-            <img src="try.png" alt="no image" id="img_item">
+            <img src="profile.png" alt="no image" id="img_item">
             <p id="price">69.00Php</p>
             <p id="label">CellPhone</p>
             <p id="discription">100gb RAM<br>100gb ROM<br>100gb megaPixel</p>
@@ -73,9 +76,6 @@
             <button id="add_cart">Add to cart</button>
         </div>
         
-        <div class="content section" style="max-width: 500px;">
-            <img src="./boys.jpg" class="img_slides" style="width: 100%">
-        </div>
 
         <script src="event.js"></script>
     </div>

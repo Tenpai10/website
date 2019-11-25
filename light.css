@@ -6,39 +6,67 @@
 }
 
 nav{
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-right: 5%;
+    padding-left: 5%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
     font-family: "Open Sans";
-    padding-bottom: 10px;
+    height: 100%;
 }
 
 .logo img{
     float: left;
-    max-width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    margin-right: 600px;
-}
-
-.nav-links{
-    margin-top: 10px;
-    display: flex;
+    width: 70%;
+    height: auto;
+    margin-left: 5%;
     justify-content: space-around;
-    width: 20%;
-    margin-right: -50px;
-
 }
 
-.nav-links li{
+
+.nav_links img{
+    float: right;
+    width:3%;
+    height: auto;
+    margin-right: 2.5%;
+}
+
+#search_icon{
+    width:2%;
+    margin-top: 0.5%;
+}
+
+.nav_links p{
+    float: right;
+}
+
+.nav_links li{
     list-style: none;
 }
 
-.nav-links a{
-    text-decoration: none;
-    font-size: 15px;
+.nav_links ul{
+    margin-right: 2.5%;
+    float: right;
+    margin-top: 0.5%;
+    justify-content: space-around;
+    display: flex;
+    width: 20%;
+    height: auto;
 }
+
+.nav_links a{
+    font-size: 100%;
+    text-decoration: none;
+    color: #242424;
+    font-weight: bold;
+}
+
+#shop{
+    color: #e0245e;
+}
+
+
 
 .line{
     width: 100%;
@@ -46,15 +74,15 @@ nav{
 }
 
 .category{
-    margin-left: 170px;
-    margin-top: 18px;
+    margin-left: 10%;
+    margin-top: 2.5%;
     background: white;
     box-shadow: 2px -2px 25px 0px rgba(0,0,0,0.17);
     border-style: none none solid none ;
     border-width: 1px;
     border-color: #e0245e;
-    height: 40px;
-    width: 600px;
+    height: 40%;
+    width: 80%;
     font-size: 15px;
     color: black;
     cursor: pointer;
@@ -74,39 +102,11 @@ nav{
     height: 70px;
 }
 
-.search_cart img{
-    float: right;
-    margin-top: 18px;
-    max-width: 100%;
-    height: 40px;
-}
-
-.cart{
-    margin-right: 68px;
-}
-
-.search{
-    filter: invert(100%);
-    margin-right: 20px;
-    padding: 10px;
-    background: #1fdba1;
-}
-
-#search{
-    float: right;
-    margin-top: 18px;
-    height: 40px;
-    width: 200px;
-    background: #d7d7d7;
-    border: none;
-    font-size: 15px;
-    padding: 10px;
-}
 
 .inventory{
     margin: auto;
     margin-top: 30px;
-    width: 75%;
+    width: 80%;
     box-shadow: 2px -2px 25px 0px rgba(0,0,0,0.17);
     height: 1000px;
 }
@@ -163,7 +163,6 @@ nav{
     background-color: transparent;
 }
 
-
 #shopNow{
     float: left;    
 
@@ -217,6 +216,3 @@ cursor: pointer;
     margin-right: 10%;
     margin-bottom: 10px;
 }
-
-
-
